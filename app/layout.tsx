@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import yekanBakh from "@/fonts";
 
 import AdvertisingNavbar from "@/components/pages/home/templates/AdvertisingNavbar";
+import Header from "@/components/shared/Header";
 
 export const metadata: Metadata = {
   title: "اپل استور",
@@ -17,7 +18,8 @@ export default function RootLayout({
     <html lang="fa" dir="rtl">
       <body className={`${yekanBakh.className} antialiased`}>
         <AdvertisingNavbar />
-        <main className="pt-20 2xl:pt-25">{children}</main>
+        <Header />
+        <main className="container mx-auto mt-55 max-2xl:px-6">{children}</main>
       </body>
     </html>
   );
