@@ -1,11 +1,5 @@
-import AdvertisingNavbar from "./templates/AdvertisingNavbar";
-
 const HomePage = () => {
-  return (
-    <main>
-      <AdvertisingNavbar />
-    </main>
-  );
+  return <div>HomePage</div>;
 };
 
 export default HomePage;
