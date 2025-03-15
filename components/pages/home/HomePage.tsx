@@ -1,5 +1,11 @@
+import Categories from "./templates/Categories";
+
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <>
+      <Categories />
+    </>
+  );
 };
 
 export default HomePage;
