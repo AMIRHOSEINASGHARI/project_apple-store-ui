@@ -7,4 +7,6 @@
 
   --color-primary: #ff510c;
   --color-lightGray: #f6f6f6;
+
+  --breakpoint-2xl: 1440px;
 }
