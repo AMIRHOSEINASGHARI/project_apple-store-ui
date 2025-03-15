@@ -10,3 +10,9 @@
 
   --breakpoint-2xl: 1440px;
 }
+
+@layer base {
+  button {
+    cursor: pointer;
+  }
+}

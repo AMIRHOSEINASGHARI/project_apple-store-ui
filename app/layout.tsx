@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="fa" dir="rtl">
       <body className={`${yekanBakh.className} antialiased`}>
         <AdvertisingNavbar />
-        <main className="pt-10 2xl:pt-15">{children}</main>
+        <main className="pt-20 2xl:pt-25">{children}</main>
       </body>
     </html>
   );
