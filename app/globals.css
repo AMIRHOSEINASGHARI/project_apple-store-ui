@@ -16,3 +16,9 @@
     cursor: pointer;
   }
 }
+
+@layer components {
+  .icon {
+    @apply w-4.5 2xl:w-6;
+  }
+}
