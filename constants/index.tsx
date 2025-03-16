@@ -78,4 +78,50 @@ const specialOfferTimers = [
   },
 ];
 
-export { categories, heroSlides, specialOfferTimers };
+const specialOfferSliders = [
+  {
+    image: "/images/special-offer-sliders/special-slider-1.webp",
+    title: "خرید آیفون ۱۶ پرو ۵۱۲ گیگ",
+    mainPrice: "62000000",
+    discountedPrice: "60500000",
+  },
+  {
+    image: "/images/special-offer-sliders/special-slider-2.webp",
+    title: "خرید مک بوک پرو ۱ ترابایت",
+    mainPrice: "62000000",
+    discountedPrice: "60500000",
+  },
+  {
+    image: "/images/special-offer-sliders/special-slider-3.webp",
+    title: "خرید ایرپاد اپل",
+    mainPrice: "62000000",
+    discountedPrice: "60500000",
+  },
+  {
+    image: "/images/special-offer-sliders/special-slider-4.webp",
+    title: "خرید ویژن پرو اپل",
+    mainPrice: "62000000",
+    discountedPrice: "60500000",
+  },
+  {
+    image: "/images/special-offer-sliders/special-slider-5.webp",
+    title: "خرید آیفون ۱۴ پرو ۲۵۶ گیگ",
+    mainPrice: "62000000",
+    discountedPrice: "60500000",
+  },
+];
+
+const sliderPagination = {
+  clickable: true,
+  renderBullet: function (index: number, className: string) {
+    return '<span class="' + className + '">' + "</span>";
+  },
+};
+
+export {
+  categories,
+  heroSlides,
+  specialOfferTimers,
+  specialOfferSliders,
+  sliderPagination,
+};

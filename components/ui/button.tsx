@@ -11,7 +11,7 @@ type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
 };
 
 const baseStyles =
-  "text-sm 2xl:text-base cursor-pointer h-[30px] 2xl:h-[36px] min-w-[30px] py-2 px-3.5 flex items-center justify-center gap-3 disabled:cursor-not-allowed transition";
+  "whitespace-nowrap text-sm 2xl:text-base cursor-pointer h-[30px] 2xl:h-[36px] min-w-[30px] py-2 px-3.5 flex items-center justify-center gap-3 disabled:cursor-not-allowed transition";
 
 const borderRadius = {
   none: "rounded-none",

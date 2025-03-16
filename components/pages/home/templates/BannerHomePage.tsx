@@ -11,18 +11,11 @@ import "./swiper.style.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, EffectCoverflow, Autoplay } from "swiper/modules";
 
-import { heroSlides } from "@/constants";
+import { heroSlides, sliderPagination } from "@/constants";
 
 import Button from "@/components/ui/button";
 
 const BannerHomePage = () => {
-  const pagination = {
-    clickable: true,
-    renderBullet: function (index: number, className: string) {
-      return '<span class="' + className + '">' + "</span>";
-    },
-  };
-
   return (
     <section className="my-30">
       <Swiper
@@ -32,7 +25,7 @@ const BannerHomePage = () => {
         centeredSlides={true}
         slidesPerView={"auto"}
         modules={[Pagination, EffectCoverflow, Autoplay]}
-        pagination={pagination}
+        pagination={sliderPagination}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
