@@ -1,0 +1,22 @@
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: #c5c5c5;
+  transition: all ease-in-out 0.2s;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-primary);
+}
+
+.swiper-slide {
+  width: 80%;
+}
+
+@media (min-width: 1440px) {
+  .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+  }
+}

@@ -5,8 +5,8 @@ import { categories } from "@/constants";
 
 const Categories = () => {
   return (
-    <section className="2xl:bg-lightGray 2xl:rounded-[17px] flex justify-center">
-      <div className="flex flex-wrap gap-4 2xl:gap-[50px] items-center justify-center container mx-auto">
+    <section className="container mx-auto 2xl:bg-lightGray 2xl:rounded-[17px] flex justify-center">
+      <div className="flex flex-wrap gap-4 2xl:gap-[50px] items-center justify-center">
         {categories.map(({ src, text, isActive }) => (
           <Link
             href="#"

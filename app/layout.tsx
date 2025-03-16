@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className={`${yekanBakh.className} antialiased`}>
         <AdvertisingNavbar />
         <Header />
-        <main className="container mx-auto mt-55 max-2xl:px-6">{children}</main>
+        <main className="mt-55">{children}</main>
       </body>
     </html>
   );

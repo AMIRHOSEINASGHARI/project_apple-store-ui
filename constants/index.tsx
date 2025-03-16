@@ -36,4 +36,23 @@ const categories = [
   },
 ];
 
-export { categories };
+const heroSlides = [
+  {
+    id: "1",
+    src: "/images/slider-1.webp",
+  },
+  {
+    id: "2",
+    src: "/images/slider-2.webp",
+  },
+  {
+    id: "3",
+    src: "/images/slider-3.webp",
+  },
+  {
+    id: "4",
+    src: "/images/slider-4.webp",
+  },
+];
+
+export { categories, heroSlides };

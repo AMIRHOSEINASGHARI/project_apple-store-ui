@@ -6,7 +6,7 @@ import SearchBar from "./SearchBar";
 
 const Header = () => {
   return (
-    <header className="max-2xl:shadow-[0_0_19.6px_-5px_#0000001A] 2xl:border-b 2xl:border-[#E6E6E6] fixed top-13 2xl:top-17.5 bg-white w-full flex flex-col justify-center">
+    <header className="max-2xl:shadow-[0_0_19.6px_-5px_#0000001A] 2xl:border-b 2xl:border-[#E6E6E6] fixed z-50 top-13 2xl:top-17.5 bg-white w-full flex flex-col justify-center">
       <div>
         <div className="container mx-auto flex items-center p-6 pb-4 2xl:px-0 2xl:py-8 justify-between">
           <Button variant="icon" className="2xl:hidden">
