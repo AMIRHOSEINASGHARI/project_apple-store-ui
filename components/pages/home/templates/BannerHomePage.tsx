@@ -6,7 +6,7 @@ import Image from "next/image";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
-import "./style.css";
+import "./swiper.style.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, EffectCoverflow, Autoplay } from "swiper/modules";
@@ -24,7 +24,7 @@ const BannerHomePage = () => {
   };
 
   return (
-    <section className="mb-100">
+    <section className="my-30">
       <Swiper
         initialSlide={1}
         effect={"coverflow"}
@@ -68,7 +68,7 @@ const BannerHomePage = () => {
                   <p className="max-2xl:text-[15px]">
                     اولین نفری باشید که ویژن پرو می‌خرید
                   </p>
-                  <Button className="h-9 w-[142px] rounded-[9px]">
+                  <Button className="h-9 w-[142px] rounded-[9px] 2xl:shadow-[0_0_15px_3px_#ff510b66]">
                     خرید کنید
                   </Button>
                 </div>

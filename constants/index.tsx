@@ -39,20 +39,43 @@ const categories = [
 const heroSlides = [
   {
     id: "1",
-    src: "/images/slider-1.webp",
+    src: "/images/hero-sliders/slider-1.webp",
   },
   {
     id: "2",
-    src: "/images/slider-2.webp",
+    src: "/images/hero-sliders/slider-2.webp",
   },
   {
     id: "3",
-    src: "/images/slider-3.webp",
+    src: "/images/hero-sliders/slider-3.webp",
   },
   {
     id: "4",
-    src: "/images/slider-4.webp",
+    src: "/images/hero-sliders/slider-4.webp",
   },
 ];
 
-export { categories, heroSlides };
+const specialOfferTimers = [
+  {
+    number: "۰۱",
+    text: "روز",
+    isActive: true,
+  },
+  {
+    number: "۲۴",
+    text: "ساعت",
+    isActive: false,
+  },
+  {
+    number: "۱۵",
+    text: "دقیقه",
+    isActive: false,
+  },
+  {
+    number: "۱۰",
+    text: "ثانیه",
+    isActive: false,
+  },
+];
+
+export { categories, heroSlides, specialOfferTimers };

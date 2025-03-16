@@ -11,12 +11,15 @@
 }
 
 .swiper-slide {
-  width: 80%;
+  width: 70%;
 }
 
 @media (min-width: 1440px) {
   .swiper-pagination-bullet {
     width: 15px;
     height: 15px;
+  }
+  .swiper-slide {
+    width: 70%;
   }
 }

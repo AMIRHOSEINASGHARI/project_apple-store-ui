@@ -1,12 +1,14 @@
 import BannerHomePage from "./templates/BannerHomePage";
 import Categories from "./templates/Categories";
+import SpecialOffer from "./templates/SpecialOffer";
 
 const HomePage = () => {
   return (
-    <div className="space-y-20">
+    <>
       <Categories />
       <BannerHomePage />
-    </div>
+      <SpecialOffer />
+    </>
   );
 };
 
