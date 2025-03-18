@@ -32,7 +32,7 @@ const SpecialOfferSliders = () => {
               alt={item.title}
               width={500}
               height={500}
-              className="shadow-2xl absolute w-[97%] 2xl:w-[428px] max-2xl:h-[258px] 2xl:h-[428px] -top-10 right-0 object-cover rounded-[21px] overflow-hidden"
+              className="shadow-2xl absolute w-full 2xl:w-[428px] max-2xl:h-[258px] 2xl:h-[428px] -top-10 right-0 object-cover rounded-[21px] overflow-hidden"
             />
             <div className="bg-lightGray rounded-xl p-5 2xl:pr-70 w-full 2xl:w-[1090px] max-2xl:h-[437px] 2xl:h-[444px] flex flex-col max-2xl:justify-end 2xl:justify-center gap-2 2xl:gap-10">
               <p className="font-semibold text-xl 2xl:text-[37px]">
