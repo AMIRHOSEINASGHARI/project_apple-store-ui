@@ -236,6 +236,25 @@ const appleWatchesSliders = [
   },
 ];
 
+const homePageAdvantages = [
+  {
+    image: "svg/call.svg",
+    text: "پشتیبانی ۲۴ ساعته",
+  },
+  {
+    image: "svg/scan.svg",
+    text: "ضمانت اصلالت کالا",
+  },
+  {
+    image: "svg/Wallet.svg",
+    text: "امکان پرداخت در محل",
+  },
+  {
+    image: "svg/send.svg",
+    text: "ارسال سریع",
+  },
+];
+
 export {
   categories,
   heroSlides,
@@ -244,4 +263,5 @@ export {
   sliderPagination,
   bestSellerSliders,
   appleWatchesSliders,
+  homePageAdvantages,
 };

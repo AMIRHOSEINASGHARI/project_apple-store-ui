@@ -5,6 +5,7 @@ import SpecialOffer from "./templates/SpecialOffer";
 import NotifyBanners from "./templates/NotifyBanners";
 import AppleWatches from "./templates/AppleWatches";
 import HeadphoneBanner from "./templates/HeadphoneBanner";
+import AdvantagesSection from "./templates/AdvantagesSection";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
       <NotifyBanners />
       <AppleWatches />
       <HeadphoneBanner />
+      <AdvantagesSection />
     </>
   );
 };
