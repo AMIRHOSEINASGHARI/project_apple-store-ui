@@ -1,4 +1,5 @@
 import BannerHomePage from "./templates/BannerHomePage";
+import BestSeller from "./templates/BestSeller";
 import Categories from "./templates/Categories";
 import SpecialOffer from "./templates/SpecialOffer";
 
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Categories />
       <BannerHomePage />
       <SpecialOffer />
+      <BestSeller />
     </>
   );
 };

@@ -118,10 +118,98 @@ const sliderPagination = {
   },
 };
 
+const bestSellerSliders = [
+  {
+    id: "1",
+    image: "/images/best-seller-sliders/macbook.webp",
+    text: "مک بوک ایر 13.6 اینچ M2 ظرفیت 8/256 گیگ مدل 2022",
+    price: "75000000",
+    colors: ["#FFDA79", "#ECECEC", "#828282"],
+  },
+  {
+    id: "2",
+    image: "/images/best-seller-sliders/tablet.png",
+    text: "آیپد پرو 11 اینچ M2 ظرفیت 128 گیگ",
+    price: "45000000",
+    colors: ["#ECECEC", "#828282"],
+  },
+  {
+    id: "3",
+    image: "/images/best-seller-sliders/headphone.png",
+    text: "ایرپاد مکس هدفون بلوتوث اپل",
+    price: "27300000",
+    colors: ["#FFDA79"],
+  },
+  {
+    id: "4",
+    image: "/images/best-seller-sliders/watch.png",
+    text: "اپل واچ اولترا تیتانیومی با بند لوپ اورنج آلپاین",
+    price: "41200000",
+    colors: ["#E24C21"],
+  },
+  {
+    id: "5",
+    image: "/images/best-seller-sliders/iphone16-promax.webp",
+    text: "گوشی اپل مدل iphone 16 Pro Max یک ترابایت ۸ گیگ",
+    price: "220000000",
+    colors: ["#E24C21", "#000000"],
+  },
+  {
+    id: "6",
+    image: "/images/best-seller-sliders/iphone16.webp",
+    text: "گوشی اپل مدل iphone 16 CH یک ترابایت ۸ گیگ",
+    price: "88900000",
+    colors: ["#2196f3", "#00e676", "#ff80ab"],
+  },
+  {
+    id: "7",
+    image: "/images/best-seller-sliders/macbook.webp",
+    text: "مک بوک ایر 13.6 اینچ M2 ظرفیت 8/256 گیگ مدل 2022",
+    price: "75000000",
+    colors: ["#FFDA79", "#ECECEC", "#828282"],
+  },
+  {
+    id: "8",
+    image: "/images/best-seller-sliders/tablet.png",
+    text: "آیپد پرو 11 اینچ M2 ظرفیت 128 گیگ",
+    price: "45000000",
+    colors: ["#ECECEC", "#828282"],
+  },
+  {
+    id: "9",
+    image: "/images/best-seller-sliders/headphone.png",
+    text: "ایرپاد مکس هدفون بلوتوث اپل",
+    price: "27300000",
+    colors: ["#FFDA79"],
+  },
+  {
+    id: "10",
+    image: "/images/best-seller-sliders/watch.png",
+    text: "اپل واچ اولترا تیتانیومی با بند لوپ اورنج آلپاین",
+    price: "41200000",
+    colors: ["#E24C21"],
+  },
+  {
+    id: "11",
+    image: "/images/best-seller-sliders/iphone16-promax.webp",
+    text: "گوشی اپل مدل iphone 16 Pro Max یک ترابایت ۸ گیگ",
+    price: "220000000",
+    colors: ["#E24C21", "#000000"],
+  },
+  {
+    id: "12",
+    image: "/images/best-seller-sliders/iphone16.webp",
+    text: "گوشی اپل مدل iphone 16 CH یک ترابایت ۸ گیگ",
+    price: "88900000",
+    colors: ["#2196f3", "#00e676", "#ff80ab"],
+  },
+];
+
 export {
   categories,
   heroSlides,
   specialOfferTimers,
   specialOfferSliders,
   sliderPagination,
+  bestSellerSliders,
 };

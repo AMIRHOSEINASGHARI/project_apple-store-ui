@@ -6,7 +6,7 @@ import AdvertisingNavbar from "@/components/pages/home/templates/AdvertisingNavb
 import Header from "@/components/shared/Header";
 
 export const metadata: Metadata = {
-  title: "اپل استور",
+  title: "فروشگاه اپل استور",
 };
 
 export default function RootLayout({
