@@ -1,0 +1,18 @@
+.apple-watches-swiper-slide-first {
+  width: 150px;
+  height: 100%;
+}
+
+.apple-watches-swiper-slide-others {
+  width: 213px;
+  height: 100%;
+}
+
+@media (min-width: 1080px) {
+  .apple-watches-swiper-slide-first {
+    width: 435px;
+  }
+  .apple-watches-swiper-slide-others {
+    width: 290px;
+  }
+}

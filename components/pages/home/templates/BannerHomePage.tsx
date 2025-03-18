@@ -39,7 +39,10 @@ const BannerHomePage = () => {
         }}
       >
         {heroSlides.map((item) => (
-          <SwiperSlide key={item.id} className="pb-15">
+          <SwiperSlide
+            key={item.id}
+            className="pb-15 banner-homepage-swiper-slide"
+          >
             {({ isActive }) => (
               <Link
                 href="#"

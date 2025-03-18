@@ -205,6 +205,37 @@ const bestSellerSliders = [
   },
 ];
 
+const appleWatchesSliders = [
+  {
+    id: "1",
+    image: "/images/watch-sliders/watch-slider-1.png",
+    text: "اپل واچ اولترا تیتانیومی با بند اوشن میدنایت",
+    price: "21000000",
+    colors: ["#ECECEC", "#828282"],
+  },
+  {
+    id: "2",
+    image: "/images/watch-sliders/watch-slider-2.png",
+    text: "اپل واچ سری 8 آلومینیوم میدنایت با بند اسپرت سیلیکون میدنایت",
+    price: "15000000",
+    colors: ["#ECECEC", "#828282"],
+  },
+  {
+    id: "3",
+    image: "/images/watch-sliders/watch-slider-3.png",
+    text: "اپل واچ اولترا تیتانیومی با بند لوپ اورنج آلپاین",
+    price: "41200000",
+    colors: ["#E24C21"],
+  },
+  {
+    id: "4",
+    image: "/images/watch-sliders/watch-slider-4.webp",
+    text: "اپل واچ اولترا تیتانیومی با بند اوشن میدنایت",
+    price: "21000000",
+    colors: ["#ECECEC", "#828282"],
+  },
+];
+
 export {
   categories,
   heroSlides,
@@ -212,4 +243,5 @@ export {
   specialOfferSliders,
   sliderPagination,
   bestSellerSliders,
+  appleWatchesSliders,
 };

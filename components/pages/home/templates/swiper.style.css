@@ -10,7 +10,7 @@
   background: var(--color-primary);
 }
 
-.swiper-slide {
+.banner-homepage-swiper-slide {
   width: 70%;
 }
 
@@ -19,7 +19,7 @@
     width: 15px;
     height: 15px;
   }
-  .swiper-slide {
+  .banner-homepage-swiper-slide {
     width: 70%;
   }
 }
