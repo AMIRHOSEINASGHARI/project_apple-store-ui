@@ -12,7 +12,7 @@ const HeadphoneBanner = () => {
           width={1400}
           height={500}
           alt="banner"
-          className="w-full h-full object-cover"
+          className="w-full absolute bottom-0 left-6 xl:left-30 scale-116 lg:scale-120"
         />
         <div className="absolute z-20 bottom-3 left-5 lg:left-20 lg:bottom-10 flex flex-col items-center lg:items-start">
           <div className="flex items-center gap-1 -mb-1">

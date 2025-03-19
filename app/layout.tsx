@@ -4,6 +4,7 @@ import yekanBakh from "@/fonts";
 
 import AdvertisingNavbar from "@/components/pages/home/templates/AdvertisingNavbar";
 import Header from "@/components/shared/Header";
+import Footer from "@/components/shared/Footer";
 
 export const metadata: Metadata = {
   title: "فروشگاه اپل استور",
@@ -19,7 +20,8 @@ export default function RootLayout({
       <body className={`${yekanBakh.className} antialiased`}>
         <AdvertisingNavbar />
         <Header />
-        <main className="my-55">{children}</main>
+        <main className="mt-55 mb-10">{children}</main>
+        <Footer />
       </body>
     </html>
   );

@@ -255,6 +255,104 @@ const homePageAdvantages = [
   },
 ];
 
+const socialMediaList = [
+  {
+    src: "/svg/instagram.svg",
+    alt: "instagram",
+  },
+  {
+    src: "/svg/whatsapp.svg",
+    alt: "whatsapp",
+  },
+  {
+    src: "/svg/x.svg",
+    alt: "x",
+  },
+];
+
+const footerLinks = [
+  {
+    id: "Shop",
+    label: "فروشگاه",
+    links: [
+      {
+        text: "مک",
+        href: "#",
+      },
+      {
+        text: "آیفون",
+        href: "#",
+      },
+      {
+        text: "آیپد",
+        href: "#",
+      },
+      {
+        text: "اپل واچ",
+        href: "#",
+      },
+    ],
+  },
+  {
+    id: "Accessories",
+    label: "لوازم جانبی",
+    links: [
+      {
+        text: "ایرپاد",
+        href: "#",
+      },
+      {
+        text: "هوم‌پاد",
+        href: "#",
+      },
+      {
+        text: "ایرتگ",
+        href: "#",
+      },
+    ],
+  },
+  {
+    id: "Quick access",
+    label: "دسترسی سریع",
+    links: [
+      {
+        text: "حساب کاربری",
+        href: "#",
+      },
+      {
+        text: "تسویه حساب",
+        href: "#",
+      },
+      {
+        text: "سبد خرید",
+        href: "#",
+      },
+      {
+        text: "فروشگاه",
+        href: "#",
+      },
+    ],
+  },
+  {
+    id: "Contact",
+    label: "ارتباط با ما",
+    links: [
+      {
+        text: "تماس با ما",
+        href: "#",
+      },
+      {
+        text: "درباره ما",
+        href: "#",
+      },
+      {
+        text: "نقشه سایت",
+        href: "#",
+      },
+    ],
+  },
+];
+
 export {
   categories,
   heroSlides,
@@ -264,4 +362,6 @@ export {
   bestSellerSliders,
   appleWatchesSliders,
   homePageAdvantages,
+  socialMediaList,
+  footerLinks,
 };
