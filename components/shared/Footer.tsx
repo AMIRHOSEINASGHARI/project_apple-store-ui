@@ -94,17 +94,18 @@ const Links = () => (
           />
           <input type="checkbox" id={id} className="hidden" />
         </label>
-        <div className="hidden peer-has-checked:flex lg:flex flex-col gap-1 lg:gap-3 max-lg:p-3">
+        <ul className="hidden peer-has-checked:flex lg:flex flex-col gap-1 lg:gap-3 max-lg:p-3">
           {links.map((item) => (
-            <Link
-              key={item.text}
-              href={item.href}
-              className="text-sm lg:text-[15px] whitespace-nowrap"
-            >
-              {item.text}
-            </Link>
+            <li key={item.text}>
+              <Link
+                href={item.href}
+                className="text-sm lg:text-[15px] whitespace-nowrap"
+              >
+                {item.text}
+              </Link>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     ))}
   </div>
